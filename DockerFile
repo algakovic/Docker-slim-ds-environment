@@ -1,0 +1,4 @@
+FROM python:3.7.3-slim
+LABEL maintainer="Aleksandar Gakovic"
+LABEL version ="0.1"
+WORKDIR = /data
