@@ -8,4 +8,6 @@ WORKDIR /data
 
 COPY /data
 
-RUN pip install jupyter numpy
+RUN pip install jupyter numpy matplotlib seaborn pandas
+
+EXPOSE 8888
